@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'calendar';
+  collapsed: boolean = true;
+  show: boolean = false;
+  // isAuthenticated = true;
 }
